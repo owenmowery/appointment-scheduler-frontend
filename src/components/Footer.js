@@ -4,7 +4,7 @@ export default class Footer extends Component {
     render() {
         return (
             <section className="row footer-row">
-                <h1>Footer</h1>
+                <p>Footer</p>
             </section>
         )
     }
