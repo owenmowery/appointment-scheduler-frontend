@@ -11,7 +11,7 @@ export default class Home extends Component {
                         <h1>Home</h1>
                     </div>
                 </section>
-                <section className="row about-row">
+                <section className="row about-container">
                     <About />
                 </section>
             </div>
