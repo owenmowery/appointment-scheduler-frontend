@@ -25,7 +25,7 @@ export default class SignIn extends Component {
         return (
             <>
                 <h3>Admin Login</h3>
-                <form onSubmit={this.handleSubmit}>
+                <form className="signin-form"  onSubmit={this.handleSubmit}>
                     <label>Email:</label>
                     <input type="email" value={this.state.email} />
                     <br/>
