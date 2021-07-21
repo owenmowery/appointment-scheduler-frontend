@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 html {
@@ -57,6 +57,25 @@ section {
   background-color: #f5f6fa;
   color: white;
   text-align: center;
+}
+
+.button {
+  padding: 10px;
+  background-color: #487eb0;
+  border-radius: 4px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.button:link,
+.button:visited {
+  border: 1px solid #487eb0;
+  color: #fff;
+}
+
+.button:hover,
+.button:active {
+  border: 1px solid #487eb0;
+  background-color: #306291;
 }
 
 /* ---------------------------- */

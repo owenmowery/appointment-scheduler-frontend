@@ -32,7 +32,7 @@ export default class SignIn extends Component {
                     <label>Password:</label>
                     <input type="password" value={this.state.password} />
                     <br/>
-                    <input type="submit" value="Submit" />
+                    <input className="button"  type="submit" value="Submit" />
                 </form>
             </>
         )

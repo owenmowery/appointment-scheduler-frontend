@@ -10,7 +10,7 @@ export default class Admin extends Component {
                 <div className="col span-1-of-2 admin-cols">
                     <h3>Welcome, Admin</h3>
                     <p>Please login to view scheduled appointments</p>
-                    <button onClick={() => <SignIn />}>Login</button>
+                    <button className="button" onClick={() => <SignIn />}>Login</button>
                 </div>
                 <div className="col span-1-of-2 admin-cols">
                     <SignIn />
