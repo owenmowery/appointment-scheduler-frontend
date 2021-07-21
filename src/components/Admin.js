@@ -7,11 +7,12 @@ export default class Admin extends Component {
     render() {
         return (
             <section className="row">
-                <div className="col span-1-of-2 admin-col">
-                    <h1>Admin Page</h1>
+                <div className="col span-1-of-2 admin-cols">
+                    <h3>Welcome, Admin</h3>
+                    <p>Please login to view scheduled appointments</p>
                     <button onClick={() => <SignIn />}>Login</button>
                 </div>
-                <div className="col span-1-of-2 admin-col">
+                <div className="col span-1-of-2 admin-cols">
                     <SignIn />
                 </div>
             </section>
