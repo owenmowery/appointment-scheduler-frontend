@@ -1,9 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import { Provider } from 'react-redux';
+//import { createStore, compose, applyMiddleware } from 'redux';
+//import rootReducer from './reducers';
 import './index.css';
 import './grid.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+//import thunk from 'redux-thunk';
+
+//const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+//let store = createStore(rootReducer, composeEnhancers(applyMiddleware(thunk)));
 
 ReactDOM.render(
   <React.StrictMode>
