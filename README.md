@@ -1,3 +1,15 @@
+# ScheduleNow
+
+This is a front-end web app built with React (React front-end on construction) that any business who takes appointments from clients can benefit from. This is a baseline shell that with some small adjustments, can work for most businesses (doctor offices, flower shops, tattoo shops).
+
+## Installation
+
+To install program fork the program and copy the ssh link. Navigate to the folder of choice using cd folder_name/ replacing folder_name with the correct name. Once in the folder type git clone ssh_link replacing ssh_link with the one that was obtained earlier and hit enter. Install json packages. To run type yarn start and go to http://localhost:3001 in browser to use the app.
+
+## Contributors
+
+If you wish to contribute to this program please submit a pull request or a new issue.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
